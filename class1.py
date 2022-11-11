@@ -1,4 +1,5 @@
 
+
 import random
 
 set_numb = [] #empty array
@@ -124,12 +125,13 @@ class Iontra:
              else:
                 while True:
                     try:
-                        select = int(input("Enter the nth Array to be returned starting at 0 \n"))
+                        select = int(input(f"Enter the nth Array to be returned starting at 0 - {len(result) - 1} \n"))
                     except ValueError:
                         print ("Please enter an integer between 0 -  \n", len(result))
                         continue
                     if select < 0 or select < len(result):
                         break
                     else:
-                        print ("Please enter a number between 0 -  \n", len(result))
+                        print (f"Please enter a number between 0 - {len(result) - 1} \n", len(result))
+                        continue
         return print("The ", select, " Smallest number in the Array is : \n", result[select])
