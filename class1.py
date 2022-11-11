@@ -14,7 +14,7 @@ class Iontra:
 
 
     def create_array(self):
-        print("Please select between the two option: \n 1 - Randomize array numbers. \n 2 - User input array number")
+        print("Please select between the two option: \n 1 - Randomize array numbers. \n 2 - User input array numbers")
         while True:
             try:
                 select = int(input("Enter a number betwen 1-2:\n"))
@@ -71,7 +71,7 @@ class Iontra:
         for i in range(size):
             while True:
                 try:
-                    set_numb.append(int(input("Please enter a value for : \n"))) # populate the array with user numbers
+                    set_numb.append(int(input(f"Please enter a value for {i} : \n"))) # populate the array with user numbers
                 except ValueError:
                     print ("Please enter an integer \n")
                     continue
@@ -133,7 +133,3 @@ class Iontra:
                     else:
                         print ("Please enter a number between 0 -  \n", len(result))
         return print("The ", select, " Smallest number in the Array is : \n", result[select])
-
-
-
-
