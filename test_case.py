@@ -1,10 +1,25 @@
+#                     This program objective is to return the first, second and nth smallest number into a random using a Pytest script
+#
+#
+#   Programmer: Yannick Ngole
+#   Recruiter: Neil McCullough
+#
+# For any information or concern please email: Yannickpenda@gmail.com
+#
+#                   Description: this is the test script for Pytest used on visual studio community 2022
+#
+#
+
+from doctest import debug_script
+
+
 from ast import Compare
 import unittest
 import heapq
 import random
 from class1 import*
 
-Io = Iontra()
+Io = Iontra() # initialize class1
 
 
 class Test_test_1(unittest.TestCase):
@@ -22,7 +37,7 @@ class Test_test_1(unittest.TestCase):
         if not result2:
             assert 0 == 0
         else:
-            second_smallest = heapq.nsmallest(2, result2)[1]
+            second_smallest = heapq.nsmallest(2, result2)[1] # find the second smallest number in the array
             assert second_smallest == result2[1]
 
     def test_nth_smallest_number(self) -> None:
@@ -34,7 +49,7 @@ class Test_test_1(unittest.TestCase):
         elif nth == 0:
              assert min(result3) == result3[0]
         else:
-            nth_smallest = heapq.nsmallest(nth, result3)[nth - 1]
+            nth_smallest = heapq.nsmallest(nth, result3)[nth - 1] # find the nth smallest number in the array
             assert nth_smallest == result3[nth - 1]
 
 if __name__ == '__main__':
