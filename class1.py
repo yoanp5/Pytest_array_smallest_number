@@ -34,7 +34,7 @@ class Iontra:
 
 
 
-    def sort_array (self, set_numb):
+    def sort_array (self, set_numb) -> set_numb:
 
         #can definitively do Set_numb.sort() here but wanted to try to sort it myself
         
