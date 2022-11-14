@@ -2,7 +2,7 @@
 
 python implemetation for returning the first, second, and nth number in a random generated array.
 
-the test can be implemeted by a user interface or Pytest. 
+The test can be implemeted by a user interface or Pytest. 
 
 Version: 1.0
 Revision: 0.9
