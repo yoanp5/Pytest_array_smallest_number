@@ -12,7 +12,6 @@
 
 from class1 import *
 import sys
-import heapq
 
 Io = Iontra() # initialize class1
 
