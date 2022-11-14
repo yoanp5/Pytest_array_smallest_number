@@ -10,10 +10,6 @@
 #
 #
 
-from doctest import debug_script
-
-
-from ast import Compare
 import unittest
 import heapq
 import random
