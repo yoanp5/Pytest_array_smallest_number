@@ -1,4 +1,4 @@
-# Iontra_assessement
+# Pytest_find_smallest_array_number
 
 python implemetation for returning the first, second, and nth number in a random generated array.
 
