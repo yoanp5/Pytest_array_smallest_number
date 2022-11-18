@@ -1,14 +1,3 @@
-#                     This program objective is to return the first, second and nth smallest number into a random using a Pytest script
-#
-#
-#   Programmer: Yannick Ngole
-#   Recruiter: Neil McCullough
-#
-# For any information or concern please email: Yannickpenda@gmail.com
-#
-#                   Description: this is the test script for Pytest used on visual studio community 2022
-#
-#
 
 import unittest
 import heapq
