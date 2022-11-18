@@ -1,14 +1,3 @@
-#            This program's objective is to return the first, second, and nth smallest numbers into a random or user-generated array of an integer number.
-#
-#
-#   Programmer: Yannick Ngole
-#   Recruiter: Neil McCullough
-#
-# For any information or concern please email: Yannickpenda@gmail.com
-#
-#
-#
-#
 
 from class1 import *
 import sys
